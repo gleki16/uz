@@ -1,0 +1,71 @@
+# GPU增强的终端仿真器 Alacritty 的配置。
+
+# ======= 主题 =======
+# 颜色（Gruvbox深色）
+colors:
+  # 默认颜色
+  primary:
+    # hard contrast: background = '#1d2021'
+    background: '#000000'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
+
+  # 正常颜色
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  # 鲜艳的色彩
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+
+# ======= 滚动 =======
+scrolling:
+  # 回滚缓冲区中的最大行数
+  history: 10000
+  # 滚动距离乘数
+  multiplier: 7
+
+# ======= 字体 =======
+# 字体设置为等宽字体，可以用命令 fc-list 查看你系统的字体
+font:
+  size: 17
+
+  normal:
+    family: Ubuntu Mono
+    style: Regular
+
+  bold:
+    family: Ubuntu Mono
+    style: Bold
+
+  italic:
+    family: Ubuntu Mono
+    style: Italic
+
+  bold_italic:
+    family: Ubuntu Mono
+    style: Bold Italic
+
+  # 偏移量是每个字符周围的多余空间。
+  # `offset.y` 可以被认为是改变行距，而 `offset.x` 可以被认为是改变字母间距。
+  offset:
+    x: 0
+    y: 0
+
+# 背景不透明度
+window.opacity: 0.8
+
